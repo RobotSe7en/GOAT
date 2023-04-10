@@ -12,8 +12,8 @@ from loguru import logger
 here = pathlib.Path(__file__).resolve().parent
 
 device = 'cuda:0'
-model_path = here.joinpath('../llama-7b')
-lora_model_path = here.joinpath('../models/GOAT_001')
+model_path = here.joinpath('../llama-13b')
+lora_model_path = here.joinpath('../models/GOAT_001_13B_Lora')
 
 def init_model():
     '''
