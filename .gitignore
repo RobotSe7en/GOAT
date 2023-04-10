@@ -128,3 +128,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+models/GOAT_001/adapter_config.json
+models/GOAT_001/adapter_model.bin
