@@ -1,19 +1,19 @@
 # <center>GOAT</center>
 
 <div align="center">
-    <img src='./imgs/logo_new.png' width=50%/>
+    <img src='./imgs/logo_new.png' width=30%/>
 </div>
 
 
-GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在50k的中英文数据集(Alpaca和BELLE筛选)上指令微调。本项目下的代码、数据、模型等只供研究使用。
+GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在50k的中英文数据集(Alpaca和BELLE筛选)上指令微调。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
 ### 效果
 <div align="center">
-    <img src='./imgs/1.png' width=80%/>
-    <img src='./imgs/2.png' width=80%/>
-    <img src='./imgs/3.png' width=80%/>
-    <img src='./imgs/4.png' width=80%/>
-    <img src='./imgs/5.png' width=80%/>
+    <img src='./imgs/1.png'/>
+    <img src='./imgs/2.png'/>
+    <img src='./imgs/3.png'/>
+    <img src='./imgs/4.png'/>
+    <img src='./imgs/5.png'/>
 </div>
 
 ### 模型
