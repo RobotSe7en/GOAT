@@ -1,11 +1,20 @@
 # <center>GOAT</center>
 
 <div align="center">
-<img src='./imgs/logo.png' width=30%/>
+    <img src='./imgs/logo_new.png' width=50%/>
 </div>
 
 
-GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在50k的中英文数据集上指令微调。本项目下的代码、数据、模型等只供研究使用。
+GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在50k的中英文数据集(Alpaca和BELLE筛选)上指令微调。本项目下的代码、数据、模型等只供研究使用。
+
+### 效果
+<div align="center">
+    <img src='./imgs/1.png' width=80%/>
+    <img src='./imgs/2.png' width=80%/>
+    <img src='./imgs/3.png' width=80%/>
+    <img src='./imgs/4.png' width=80%/>
+    <img src='./imgs/5.png' width=80%/>
+</div>
 
 ### 模型
 本项目是基于[Llama](https://github.com/facebookresearch/llama)指令微调的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载Llama原模型权重。微调后的Adapter权重从[这里](https://huggingface.co/dannywong/GOAT)下载，并放在[GOAT_001_13B_Lora](./models/GOAT_001_13B_Lora/)目录下。
