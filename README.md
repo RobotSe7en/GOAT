@@ -7,6 +7,11 @@
 
 GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在50k的中英文数据集(Alpaca和BELLE筛选)上指令微调。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
+### 更新
+🚀[**2023.04.15**]
+- 增加了处理多轮对话类数据的代码，使得代码可以对LlaMa模型进行多轮对话有监督微调，多轮对话有监督微调的模型效果具有较大提升；
+- 将`'### '`和`'\n\n'`切分符替换成了eos_token`'</s>'`，使其能够更好的识别文本的段落和角色的切分。模型在推理时能够适时地结束文本生成而不是无休止的生成。
+
 ### 效果
 <div align="center">
     <img src='./imgs/1.png'/>
