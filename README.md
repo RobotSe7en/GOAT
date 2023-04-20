@@ -22,9 +22,9 @@ GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/210
 - [x] 🎉多轮对话数据示例可在[sample.json](./datasets/sample.json)查看，完整的shareGPT多轮对话数据可在[这里](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)下载。
 
 ## 效果
-视频经过加速处理。
-
 https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-85b6-cadd23083fb2.mp4
+
+视频经过加速处理。
 
 
 ## 模型
