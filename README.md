@@ -5,7 +5,7 @@
 </div>
 
 
-GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在多轮对话数据集上SFT。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
+GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[LlaMa](https://github.com/facebookresearch/llama)在多轮对话数据集上SFT。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
 ## 更新
 ### 🚀 2023.04.21
@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-
 
 
 ## 模型
-本项目是基于[Llama](https://github.com/facebookresearch/llama)使用多轮对话数据集SFT的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载Llama原模型权重并放在对应文件夹下。
+本项目是基于[LlaMa](https://github.com/facebookresearch/llama)使用多轮对话数据集SFT的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载LlaMa原模型权重并放在对应文件夹下。
 
 ## 微调参数
 本项目在1台RTX A6000(48G)显卡上训练了2个epoch，batch_size是128：
@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-
 ```
 
 ## 局限性
- - 由于Llama只有少部分中文token、没有在中文语料下预训练、微调数据量较少、只更新了Adapter参数等种种因素导致微调之后的中文效果不是非常理想；
+ - 由于LlaMa只有少部分中文token、没有在中文语料下预训练、微调数据量较少、只更新了Adapter参数等种种因素导致微调之后的中文效果不是非常理想；
  - 会出现较多的事实性错误；
  - 会出现“复读机”情况；
  - 产生偏见、危险、政治错误等言论。
