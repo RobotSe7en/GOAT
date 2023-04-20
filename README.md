@@ -8,7 +8,7 @@
 GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在多轮对话数据集上SFT。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
 ### 更新
-🚀[**2023.04.15**]
+🚀[**2023.04.21**]
 - [x] 🎉发布了30B和13B的LoRA参数，此参数基于shareGPT的30k数据SFT,epoch=2；
 - [x] 🎉web页面增加了流式输出； 
 - [x] 🎉使用了`transformer==4.28.1`，支持`num_beams=1`时流式输出；
