@@ -1,7 +1,7 @@
 # <center>GOAT</center>
 
 <div align="center">
-    <img src='./imgs/logo_new.png' width=30%/>
+    <img src='./imgs/logo.png' width=30%/>
 </div>
 
 
