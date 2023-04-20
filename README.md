@@ -5,7 +5,7 @@
 </div>
 
 
-GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)有监督指令微调。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
+GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[Llama](https://github.com/facebookresearch/llama)在多轮对话数据集上SFT。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
 ### 更新
 🚀[**2023.04.15**]
