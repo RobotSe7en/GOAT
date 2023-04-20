@@ -22,10 +22,19 @@ GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/210
 
 ### 效果
 
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="./imgs/GOAT-DEMO-001.mp4" type="video/mp4">
-</videos>
+```HTML
+<video width="320" height="240" controls>
+    <source src="./imgs/GOAT-DEMO-001.mp4" type="video/mp4">
+</video>
+```
 
+<div align="center">
+    <img src='./imgs/1.png'/>
+    <img src='./imgs/2.png'/>
+    <img src='./imgs/3.png'/>
+    <img src='./imgs/4.png'/>
+    <img src='./imgs/5.png'/>
+</div>
 
 ### 模型
 本项目是基于[Llama](https://github.com/facebookresearch/llama)指令微调的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载Llama原模型权重。微调后的Adapter权重从[这里](https://huggingface.co/dannywong/GOAT)下载，并放在[GOAT_001_13B_Lora](./models/GOAT_001_13B_Lora/)目录下。
