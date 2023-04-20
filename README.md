@@ -23,6 +23,7 @@ GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/210
 
 ## 效果
 视频经过加速处理。
+
 https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-85b6-cadd23083fb2.mp4
 
 
