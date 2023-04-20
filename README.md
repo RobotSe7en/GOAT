@@ -22,11 +22,11 @@ GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/210
 
 ### 效果
 
-```HTML
+
 <video width="320" height="240" controls>
     <source src="./imgs/GOAT-DEMO-001.mp4" type="video/mp4">
 </video>
-```
+
 
 <div align="center">
     <img src='./imgs/1.png'/>
