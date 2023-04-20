@@ -26,14 +26,14 @@ https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-
 
 
 ### 模型
-本项目是基于[Llama](https://github.com/facebookresearch/llama)指令微调的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载Llama原模型权重。微调后的Adapter权重从[这里](https://huggingface.co/dannywong/GOAT)下载，并放在[GOAT_001_13B_Lora](./models/GOAT_001_13B_Lora/)目录下。
+本项目是基于[Llama](https://github.com/facebookresearch/llama)使用多轮对话数据集SFT的模型，使用本项目代码进行微调或推理需要先[申请](https://github.com/facebookresearch/llama)或在[Huggingface](https://huggingface.co/models)下载Llama原模型权重并放在对应文件夹下。
 
-### 微调
-本项目在1台RTX A6000(48G)显卡上训练了5个epoch，batch_size是128：
+### 微调参数
+本项目在1台RTX A6000(48G)显卡上训练了2个epoch，batch_size是128：
 ```
-    max_lenght=512
-    per_device_train_batch_size=32
-    gradient_accumulation_steps=4
+    max_lenght=1024
+    per_device_train_batch_size=8
+    gradient_accumulation_steps=16
     learning_rate=3e-4
 ```
 
@@ -45,8 +45,10 @@ https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-
 
 ## TODO
  - [x] 在对话类数据集上使用LoRA进行微调；
- - [ ] 在对话类数据集上进行全量微调；
- - [ ] 重构代码使其可用于多卡并行训练；
+ - [x] 提供web页面，并支持流式输出；
+ - [x] 微调LlaMa 30B模型；
+ - [ ] 实现多轮对话；
+ - [ ] 实现基于知识库或文本语料的问答(LangChain或自己构建)；
  - [ ] 使用RLHF；
- - [ ] 基于Llama 30B和65B微调；
+ - [ ] 重构代码使其可用于多卡并行训练；
  - [ ] ...
