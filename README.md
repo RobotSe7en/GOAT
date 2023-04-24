@@ -13,6 +13,7 @@ GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/210
 - [x] 🎉Web页面支持流式输出；
 - [x] 🎉多轮对话支持调节`temperature, top_p, top_k, num_beams, max_new_tokens, repetition_penalty`参数。
 
+
 ### 🚀 2023.04.21
 - [x] 🎉发布了30B和13B的LoRA参数，此参数基于shareGPT的30k数据SFT,epoch=2；
 - [x] 🎉web页面增加了流式输出； 
