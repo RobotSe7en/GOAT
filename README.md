@@ -8,6 +8,11 @@
 GOAT(山羊)是中英文大语言模型，采用[LoRA](https://arxiv.org/pdf/2106.09685.pdf)方法以较低的资源基于[LlaMa](https://github.com/facebookresearch/llama)在多轮对话数据集上SFT。本项目下的代码、数据、模型等只供研究使用。(logo由[文心一言](https://yiyan.baidu.com/)生成)
 
 ## 更新
+### 🚀 2023.04.24
+- [x] 🎉Web页面支持多轮对话；
+- [x] 🎉Web页面支持流式输出；
+- [x] 🎉多轮对话支持调节`temperature, top_p, top_k, num_beams, max_new_tokens, repetition_penalty`参数。
+
 ### 🚀 2023.04.21
 - [x] 🎉发布了30B和13B的LoRA参数，此参数基于shareGPT的30k数据SFT,epoch=2；
 - [x] 🎉web页面增加了流式输出； 
@@ -49,7 +54,7 @@ https://user-images.githubusercontent.com/14015706/233425087-dec0d125-b2e7-4fc5-
  - [x] 在对话类数据集上使用LoRA进行微调；
  - [x] 提供web页面，并支持流式输出；
  - [x] 微调LlaMa 30B模型(LoRA)；
- - [ ] Web页面实现多轮对话；
+ - [x] Web页面实现多轮对话；
  - [ ] 实现基于知识库或文本语料的问答(LangChain或自己构建)；
  - [ ] 使用RLHF；
  - [ ] 重构代码使其可用于多卡并行训练；
